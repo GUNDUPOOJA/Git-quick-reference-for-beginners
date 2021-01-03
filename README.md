@@ -1,22 +1,14 @@
 # Git-quick-reference-for-beginners
 =================================
 
-There are many good resources for learning Git. (Here's an excellent online book, and this is my videos series introducing Git and GitHub.) But once you've learned the basics, it can be hard to remember which commands to use to execute the most common tasks.  
+There are many good resources for learning Git. 
+This is a reference guide, and will not teach you Git. 
+It does not explain the difference between staged and committed, what to do with a .gitignore file, or when to create a branch. 
+The guide hopes to help with key tasks and help you to discover other commands you might need. 
 
-I went searching for a Git reference guide that would be useful for beginners like myself, but didn't find anything ideal:  
+This was forked from <https://github.com/jojo1317/Git-quick-reference-for-beginners>.
 
-*Git - the simple guide is useful as a high-level overview of the basic commands, but doesn't provide enough details. *Git Cheatsheet uses a nice interactive approach to summarize a ton of git commands on one screen, but it doesn't give you any sense of workflow. 
-*Git Reference is close to what I was looking for, and links each entry to the relevant section of Pro Git (awesome!), but is too long for a quick reference. 
-
-So, I decided to make my own reference guide! 
-
-The guide below is organized by task, with an emphasis on basic tasks and common command line arguments. It begins with the workflow for cloning, updating, and syncing with a remote repo because that's a common way to get started with Git and GitHub.  
-
-Note that this is only a reference guide, and will not teach you Git. It does not explain the difference between staged and committed, what to do with a .gitignore file, or when to create a branch. But if you are already familiar with those concepts, this guide will hopefully refresh your memory and help you to discover other commands you might need. 
-
-Please enjoy, and let me know your thoughts or questions in the comments!  
-
-# Cloning a remote repo (that you created or forked on GitHub)  
+# Cloning a remote repo (in your GitHub cloud account)  
 * git clone &lt; your-repo-URL >: copies your remote repo to your local machine (in a subdirectory with the repo's name), and automatically creates an "origin" handle 
 * git remote add upstream &lt; forked-repo-URL >: adds an "upstream" handle for the repo you forked git remote -v: shows the handles for your remotes 
 * git remote show &lt; handlename >: inspect a remote in detail Tracking, committing, and pushing your changes  
